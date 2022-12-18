@@ -1,4 +1,4 @@
-## The GITHUB_TOKEN PAT that'ill execute the actions
+## The GITHUB_TOKEN PAT that will execute the actions
 ## It's an environment variable named TF_VARS_GITHUB_TOKEN that provide it
 variable "GITHUB_TOKEN" {
     type = string
@@ -25,8 +25,8 @@ variable "repositories" {
     type=set(string)
     default = [
         "dept-1-app-1",
-        # "dept-2-app-1",
-        # "dept-3-app-1",
-        # "dept-4-app-1",
+        "dept-2-app-1",
+        "dept-3-app-1",
+        "dept-4-app-1",
     ]
 }
