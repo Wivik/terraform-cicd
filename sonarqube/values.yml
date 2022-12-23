@@ -1,0 +1,3 @@
+env:
+  - name: SONAR_LOG_LEVEL_APP
+    value: DEBUG
